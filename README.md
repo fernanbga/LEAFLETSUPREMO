@@ -35,7 +35,7 @@ index.html - archivo principal
 script.js - funcionalidades
 README.md - documentación
 ## :technologist: Autor
-- Nombres: Fernán Burgos
+- Fernán Burgos
 # :Créditos
 A mis compañeros por el apoyo y al Profesor!
 # LEAFLETSUPREMO
