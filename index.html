@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>TerremotoTerremoto</title>
+    <h1>Mapa con marcadores de color</h1>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    <link rel="stylesheet" href="./style.css">
+    <link rel="normalize" href="./normalize.css">
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+        <script src="https://unpkg.com/leaflet@latest/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet-providers@latest/leaflet-providers.js"></script>
+    
+</head>
+<body>
+    
+    <div id="map"></div>
+
+    <section>
+    <h2>Mapa 2 con formulario</h2>
+    <div class="contenedor">
+        <div id="map2" style="height: 350px; width: 350px;"></div>
+    </div>
+<div>
+  <label for="minMag">Magnitud mínima:</label>
+  <input type="number" id="minMag" name="minMag" step="1" min="1" max="7" value="1">
+</div>
+<div>
+  <label for="maxMag">Magnitud máxima:</label>
+  <input type="number" id="maxMag" name="maxMag" step="1" min="1" max="7" value="8">
+</div>
+    <div>
+        <label for="startDate">Fecha inicio:</label>
+        <input type="date" id="startDate">
+    </div>
+    <div>
+        <label for="endDate">Fecha fin:</label>
+        <input type="date" id="endDate">
+    </div>
+        <button id="filtrarBtn">Filtrar terremotos</button>
+        <p>Música ambiente para terremotos</p>
+        <iframe title="deezer-widget" src="https://widget.deezer.com/widget/dark/track/122701266" width="100%" height="200" frameborder="0" allowtransparency="true" allow="encrypted-media; clipboard-write"></iframe>
+        
+    </section>    
+    <script src="script.js"></script>
+</body>
+</html>
