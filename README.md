@@ -13,7 +13,7 @@ Los objetivos principales eran lograr marcas de colores según magnitud en el pr
 -Crear un diseño responsive adaptado a movil
 -Dar funcionalidad aplicando la lógica de JavaScript.
 
-## :camera_with_flash: Capturas de pantalla
+## Capturas de pantalla
 <img src="./assets/captura1.png" alt="Captura1">
 <img src="./assets/captura2.png" alt="Captura2">
 <img src="./assets/captura3.png" alt="Captura3">
