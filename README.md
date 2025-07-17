@@ -22,9 +22,7 @@ Los objetivos principales eran lograr marcas de colores según magnitud en el pr
 1. Clonar repositorio de GitHub
 git clone [https://github.com/fernanbga/LEAFLETSUPREMO]
 2. Abrir el archivo `index.html` en el navegador
-### :globe_with_meridians: Proyecto desplegado
-Puedes ver el proyecto online en:
-[https://nazaretmelquiades.github.io/Proyecto-quiz/]
+
 ## :books: Lecciones aprendidas
 - Hay que manejar conceptos avanzados de FrontEnd.
 - Integrar datos de una API, tratar los datos para poder usarlos.
