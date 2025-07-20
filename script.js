@@ -81,7 +81,7 @@ var Stadia_StamenToner = L.tileLayer('https://tiles.stadiamaps.com/tiles/stamen_
 }).addTo(map2);
 
 const pin = L.marker([-37.481521, -72.354196]).addTo(map2);
-pin.bindPopup('<b>Casa</b>'); //Casita 
+pin.bindPopup('<b>Chile</b>'); //Casita 
 
 //Funcion para hacer fetch y marcar sismos
 
@@ -122,8 +122,8 @@ const data = await getData(startDateInput, endDateInput, minMag, maxMag);
     const mag = pin.properties.mag;
 
     const cumpleMagnitud = mag >= minMag && mag <= maxMag; //Ambas se deben cumplir
-    const cumpleFecha = (!isNaN(startDate) ? time >= startDate : true) &&
-                        (!isNaN(endDate) ? time <= endDate : true);
+    const cumpleFecha = (!isNaN(startDate) ? time >= startDate : true) &&//Redundancia, sobra ya que lo hace la API
+                        (!isNaN(endDate) ? time <= endDate : true); // isNotaNumber
 
     if (cumpleMagnitud && cumpleFecha) {
       const marker = L.marker(coords).addTo(map2);
@@ -141,7 +141,7 @@ const data = await getData(startDateInput, endDateInput, minMag, maxMag);
 
 
 // minMag Magnitud mínima
-// masMag magnitud máxima
+// maxMag magnitud máxima
 // startDate Fecha inicio
 // endDate Fecha fin
 // filtrarBtn Filtrar terremotos 
